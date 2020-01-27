@@ -1,6 +1,6 @@
-# dnbSetup
+# MyVoice.ai BioCore and Service Layer Setup
 
-Repo containing file to allow the creation of a local core instance and associated API layer
+Repo containing file to allow the creation of a local MyVoice.ai BioCore instance and associated API Service layer
 
 NB: you need an access token (only provided on approved request by MyVoice.ai) to use the installer contained in this repository
 
@@ -32,7 +32,7 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 > `exit`
 
-# now install the MyVoice.ai BioCore and API layer (NB: this also requires node / npm to be installed locally)
+# now install the MyVoice.ai BioCore and API Service layer (NB: this also requires node / npm to be installed locally)
 
 > `./dnbSetup {your-access-token}
 
@@ -52,6 +52,6 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 `/speakerIdentify`
 
-No Authorization is needed in API request headers in this version
+No Authorization is needed in API request headers in this version; full specification detail available following approved request from MyVoice.ai
 
 
