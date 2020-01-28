@@ -36,9 +36,9 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 > `exit`
 
-# now install the MyVoice.ai BioCore and API Service layer (NB: this also requires the latest version of node & npm to be installed locally)
+# now install the MyVoice.ai BioCore and API Service layer (NB: this also requires the latest version of node & npm to be installed locally, and the script should be run as sudo)
 
-> `./mvSetup {your-access-token}
+> `sudo ./mvSetup {your-access-token}
 
 > You can confirm the middleware endpoints are available using:
 
