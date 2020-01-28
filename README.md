@@ -56,6 +56,6 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 `/speakerIdentify`
 
-No Authorization is needed in API request headers in this version; full specification detail available following approved request from MyVoice.ai
+No specific Authorization is needed in API request headers in this version (please add myvoice:myvoice); full specification detail available following approved request from MyVoice.ai
 
 
