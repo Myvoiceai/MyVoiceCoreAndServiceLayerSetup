@@ -4,7 +4,12 @@ Repo containing file to allow the creation of a local MyVoice.ai BioCore instanc
 
 NB: you need an access token (only provided on approved request by MyVoice.ai) to use the installer contained in this repository
 
-Please ensure that the latest versions of node and npm are installed.
+Please ensure that the latest versions of node and npm are installed:
+
+`curl -sL https://deb.nodesource.com/setup_13.x | sudo bash -`
+
+`sudo apt-get install -y nodejs`
+
 
 Please also install git lfs (on Ubuntu `apt-get install -y git-lfs` )
 
