@@ -10,9 +10,6 @@ Please ensure that the latest versions of node and npm are installed:
 
 `sudo apt-get install -y nodejs`
 
-
-Please also install git lfs (on Ubuntu `apt-get install -y git-lfs` )
-
 ## Easy mongo setup
 
 (note that if you prefer a non-docker installation for mongo then instructions are available here:
