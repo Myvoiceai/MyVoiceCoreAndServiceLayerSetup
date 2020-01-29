@@ -10,7 +10,13 @@ Please also install git lfs (on Ubuntu `apt-get install -y git-lfs` )
 
 ## Easy mongo setup
 
-## install docker on the server the API Layer and Core will be running
+(note that if you prefer a non-docker installation for mongo then instructions are available here:
+
+https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04
+
+If this is the case then please move to step _Add root user for database using:_ once mongo is installed.
+
+## Install docker on the server the API Layer and Core will be running
 
 > `sudo curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh`
 
@@ -38,7 +44,7 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 # now install the MyVoice.ai BioCore and API Service layer (NB: this also requires the latest version of node & npm to be installed locally, and the script should be run as sudo)
 
-> `sudo ./mvSetup {your-access-token}
+> `sudo ./mvSetup {your-access-token}`
 
 > You can confirm the middleware endpoints are available using:
 
@@ -48,7 +54,7 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 > `MyVoice API`
 
-# Endpoints available
+# Endpoints available (full specification detail available from MyVoice.ai)
 
 `/speakerEnrol`
 
@@ -56,6 +62,6 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 `/speakerIdentify`
 
-No specific Authorization is needed in API request headers in this version (please add myvoice:myvoice); full specification detail available following approved request from MyVoice.ai
+No specific Authorization is needed in API request headers in this version (please add e.g. myvoice:myvoice)
 
 
