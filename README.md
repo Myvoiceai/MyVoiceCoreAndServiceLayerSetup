@@ -44,11 +44,15 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 > `exit`
 
-# now install the MyVoice.ai BioCore and API Service layer (NB: this also requires the latest version of node & npm to be installed locally, and the script should be run as sudo)
+# now install the MyVoice.ai BioCore and API Service layer  and ensure that Intel MKL is installed (NB: this also requires the latest version of node & npm to be installed locally, and the script should be run as sudo)
 
 > clone this repo, cd to containing folder once done
 
 > `sudo ./mvSetup.sh {your-access-token}`
+
+> make sure that Intel MKL=libs are instaled:
+
+> `sudo ./install_mkl.sh`
 
 > You can confirm the middleware endpoints are available using:
 
