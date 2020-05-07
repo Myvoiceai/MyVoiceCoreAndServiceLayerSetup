@@ -50,7 +50,7 @@ _NB: 27017 is the port that you (and the middleware) will use to connect to the 
 
 > `sudo ./mvSetup.sh {your-access-token}`
 
-> make sure that Intel MKL=libs are instaled:
+> make sure that Intel MKL=libs are installed (note that if you do not have a C compiler installed that you need to install one - this can be achieved using `apt install gcc`:
 
 > `sudo ./install_mkl.sh`
 
